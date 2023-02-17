@@ -2,7 +2,7 @@
 
 #include <stdio.h>  
 
-int main ()  
+void main ()  
 {  
     char small,large;
     int ascii;  
@@ -10,7 +10,7 @@ int main ()
     printf (" Enter the Large alphabet: ");  
     scanf (" %c", &large);  
     ascii = large + 32;  
-    printf (" \n small alphabet is: %c", large, ascii);  
+    printf ("\n %c character in small alphabet is: %c", large, ascii);  
       
 
     printf ("\n\n Enter the Small alphabet: ");  
